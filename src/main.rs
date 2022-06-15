@@ -7,7 +7,6 @@ fn main() {
     let folder : &str;
     if args.len() == 2 {
         folder = &args[1];
-        println!("{:?}", args);
     } else {
         folder = "C:/Downloads";
     }
